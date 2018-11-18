@@ -1,0 +1,39 @@
+html{
+    background: linear-gradient(#CCFFFF,#FFCCCC,#EAAAF0)
+}
+#title{
+    text-align: center;
+}
+#img{
+    width: 100%
+}
+img{
+    height: 250px;
+    max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 0  auto;
+}
+
+#img-caption{
+font-size: 19px;
+padding-left:25px;
+}
+#a{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+h3{
+    padding-left:25px;
+}
+
+
+
+
+
+
+
