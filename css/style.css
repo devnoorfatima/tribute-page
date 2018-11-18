@@ -8,16 +8,34 @@ html{
     width: 100%
 }
 img{
-    height: 250px;
+    height: 100px;
     max-width: 50%;
   display: block;
   height: auto;
   margin: 0  auto;
 }
+@media (max-width:600px){
+    img{
+        width: 100%;
+    }
+}
+#a{
+    text-align: center;
+}
+h2{
+    padding-left:25px;
+}
+h5{
+    padding-left:25px;
+}
+#l{
+    padding-left: 25px;
+}
 
 #img-caption{
 font-size: 19px;
 padding-left:25px;
+
 }
 #a{
     font-size: 20px;
@@ -30,10 +48,13 @@ li{
 h3{
     padding-left:25px;
 }
-
-
-
-
-
-
-
+#img{
+    background: #CCFFFF;
+    margin-left:0px 20px 0px 20px;
+      border:3px solid #FFCCCC;
+      border-radius: 10%;
+      padding-top: 10px;
+}
+h1{
+    font-family: 'Noto Sans SC', sans-serif;
+}
